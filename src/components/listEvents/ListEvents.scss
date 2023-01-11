@@ -1,0 +1,24 @@
+.list {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #faeb00;
+  border-radius: 5px;
+  &-item {
+    padding-bottom: 10px;
+  }
+  &-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 22px;
+  }
+  &-date {
+    text-align: center;
+    color: #faeb00;
+  }
+}
+@media (max-width: 576px) {
+  .list { 
+    margin-top: 10px;
+  }
+}

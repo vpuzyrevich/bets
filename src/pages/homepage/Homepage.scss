@@ -1,0 +1,21 @@
+.homepage {
+  padding: 50px 30px;
+  &-notification {
+    display: none;
+    height: 100%;
+  }
+  &-notification-display {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .homepage {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .homepage { 
+    padding: 10px 5px;
+  }
+}

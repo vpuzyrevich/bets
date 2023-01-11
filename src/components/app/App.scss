@@ -1,0 +1,35 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.app {
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.container {
+  margin: 0 auto;
+  width: 960px;
+  min-height: 100vh;
+}
+
+@media (max-width: 992px) {
+  .container { 
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .container { 
+    width: 550px;
+  }
+}
+@media (max-width: 576px) {
+  .app {
+    font-size: 16px;
+  }
+  .container { 
+    width: 315px;
+  }
+}
